@@ -1,0 +1,20 @@
+{
+    "git": {
+        "requireBranch": "main",
+        "commitMessage": "chore: release v${version}",
+        "tagName": "v${version}",
+        "pushTags": true
+    },
+    "hooks": {
+        "after:bump": "npx auto-changelog -p"
+    },
+    "github": {
+        "release": true,
+        "assets": [
+            "/*"
+        ]
+    },
+    "npm": {
+        "publish": false
+    }
+}

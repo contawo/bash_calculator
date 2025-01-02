@@ -1,0 +1,18 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bash ./main.sh",
+    "prestart": "bash ./install.sh",
+    "start": "bash calc",
+    "release": "release-it"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "release-it": "^17.11.0"
+  }
+}
