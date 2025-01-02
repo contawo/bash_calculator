@@ -1,6 +1,7 @@
 name: Release Workflow
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
 
 jobs:
   release:
@@ -16,9 +17,9 @@ jobs:
         run: npm ci
 
       - name: Configure git user
-        run: \
-            git config --global user.name "contawo"
-            git config --global user.email "mnotozawonke@gmail.com"
+        run: |
+          git config --global user.name "contawo"
+          git config --global user.email "mnotozawonke@gmail.com"
 
       - name: Trigger release-it
         run: npm run release --ci
