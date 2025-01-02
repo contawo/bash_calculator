@@ -36,7 +36,7 @@ If you're using this code from a Git repository, clone it to your local machine:
 
 ```bash
 git clone https://github.com/contawo/bash_calculator.git
-cd bash-calculator
+cd bash_calculator
 ```
 
 ### 3. **Locate the `/usr/bin` Directory**
