@@ -35,7 +35,7 @@ If you're using Windows and want to install WSL (Windows Subsystem for Linux), f
 If you're using this code from a Git repository, clone it to your local machine:
 
 ```bash
-git clone https://github.com/contawo/bash-calculator.git
+git clone https://github.com/contawo/bash_calculator.git
 cd bash-calculator
 ```
 
