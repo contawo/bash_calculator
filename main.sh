@@ -55,7 +55,7 @@ function welcome_message() {
     green_color "$(bold_text "Bash Simple Calculator")"
     echo "-----------------------------------------------------"
     local author="Awonke Mnotoza"
-    local author_link="https://example.com/author"
+    local author_link="https://www.contawo.com/"
     echo -e "This is a simple calculator application made accessible on the terminal."
     echo -e "Created by $(clickable_link "$author_link" "$author")."
 
@@ -85,7 +85,7 @@ function welcome_message() {
 
     echo
     local complaints="Log everything here."
-    local complaints_link="https://example.com/complaints"
+    local complaints_link="https://github.com/contawo/bash_calculator/issues"
     echo -e "Have suggestions or experiencing a problem? $(clickable_link "$complaints_link" "$complaints")."
     echo 
 }

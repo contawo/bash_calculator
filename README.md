@@ -228,11 +228,51 @@ You can modify the script to suit your needs:
 Feel free to contribute to this project by forking the repository, making improvements, or submitting bug fixes.
 
 ### Steps to Contribute:
-1. Fork this repository.
-2. Create a branch with your changes (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request for review.
+
+1. **Fork the Repository**
+   - Click the **Fork** button at the top of the repository to create a personal copy of the repository.
+
+2. **Create a Branch for Your Changes**
+   - Create a new branch to work on your feature or fix:
+     ```bash
+     git checkout -b feature-name
+     ```
+   - Make sure to replace `feature-name` with a descriptive name for the branch.
+
+3. **Run the Application**
+   - Use the following commands to run the application in different modes:
+     - **Production Mode**: Run the application in production mode:
+       ```bash
+       npm start
+       ```
+     - **Development Mode**: Run the application in development mode:
+       ```bash
+       npm run dev
+       ```
+
+4. **Commit Your Changes**
+   - Once you've made your changes, commit them using a message that follows the [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) format:
+     ```bash
+     git commit -m 'bug: add new feature'
+     ```
+   - The commit message format should follow the convention:
+     - `feat:` for new features
+     - `fix:` for bug fixes
+     - `chore:` for changes that don't modify functionality (e.g., updating dependencies)
+     - `docs:` for documentation changes
+     - `style:` for formatting changes (e.g., whitespace, semicolons)
+     - `refactor:` for code refactoring
+
+5. **Push Your Changes**
+   - Push your changes to the forked repository:
+     ```bash
+     git push origin feature-name
+     ```
+
+6. **Create a Pull Request**
+   - Open a pull request (PR) on the original repository.
+   - Provide a clear description of the changes you've made.
+   - Assign reviewers and label the PR appropriately.
 
 ## **License**
 
